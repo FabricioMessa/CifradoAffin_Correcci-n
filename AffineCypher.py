@@ -38,8 +38,6 @@ def Desencriptar(encriptado, a, b):
     texto_descifrado = []
     mim = InversoModularMultiplicativo(a, 26)
     for i in letras:
-        if i == " ":
-            continue
         try:
             y = abecedario.index(i)
             decifrado = mim * (y - b) % 26
