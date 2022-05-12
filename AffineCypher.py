@@ -48,9 +48,11 @@ def Desencriptar(encriptado, a, b):
 
 el_texto = "ELEMENTALMIQUERIDOWATSON"
 TextCifrado = Encriptado(el_texto, a, b)
-TextCifrado2 = "OKHFSNKFNWFCWJHSNCHQYWFSWF"
 print(TextCifrado)
+print("=====================================")
 TextoDescifrado = Desencriptar(TextCifrado, a, b)
 print(TextoDescifrado)
+print("=====================================")
+TextCifrado2 = "OKHFSNKFNWFCWJHSNCHQYWFSWF"
 TextoDescifrado2 = Desencriptar(TextCifrado2, a, b)
 print(TextoDescifrado2)
