@@ -75,8 +75,7 @@ Para el cifrado Affin utilizamos el algoritmo de Euclides y el inverso modular m
         except ValueError:
             texto_descifrado.append(i) --> añade los indices por si no está cifrado
     return "".join(texto_descifrado) --> te retorna la lista con el texto descifrado 
-    
-    
+   
     
     
     
